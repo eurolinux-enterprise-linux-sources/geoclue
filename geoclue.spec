@@ -1,6 +1,6 @@
 Name:          geoclue
 Version:       0.12.99
-Release:       5%{?dist}
+Release:       7%{?dist}
 Summary:       A modular geoinformation service
 
 Group:         System Environment/Libraries
@@ -143,6 +143,12 @@ cp test/.libs/geoclue-test-gui $RPM_BUILD_ROOT%{_bindir}/
 %{_datadir}/dbus-1/services/org.freedesktop.Geoclue.Providers.Gsmloc.service
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.12.99-7
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.12.99-6
+- Mass rebuild 2013-12-27
+
 * Wed Mar 27 2013 Bastien Nocera <bnocera@redhat.com> 0.12.99-5
 - Remove gypsy sub-package
 
